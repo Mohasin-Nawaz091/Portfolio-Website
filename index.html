@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            background-image: url(./my pic/website-background-templates.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .volume-icon {
+    width:0.6cm;
+    height:0.6cm;
+    background-image: url('my pic/15971433961579605529-128.png'); /* Replace 'volume-icon.png' with your actual volume icon image */
+    background-size: cover;
+    cursor: pointer;
+  }
+  article h1 {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-family:monospace;
+  }
+  h2 {
+    background-color:rgba(73, 75, 74, 0.795);
+    text-align: center;
+    font-family:cursive;
+  }
+  header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+  }
+  nav {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+  }
+    </style>
+</head>
+<body background="./my pic/website-background-templates.jpg" >
+    <div id="home">
+<header>
+      <table align="right">
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th><a href="acadamics.html">My Education</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th><a href="skill.html">My Skills</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th><a href="projects.html">My Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th><a href="about.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        </tr>
+    </table>
+    <br>
+</header>
+ <div id="content">
+    <article>
+    <p>
+    <h1>My Self</h1>
+    <img src="./my pic/Snapchat-1556406207.jpg" height="100" width="135">
+  <h2>Hello there!</h2>
+  <div class="volume-icon" onclick="playAudio()"></div>
+  <audio id="myAudio"> <source src="./my pic/ttsmaker-file-2024-3-22-3-45-17.mp3" type="audio/mpeg">
+  </audio>
+  <script>
+    function playAudio() {
+      var audio = document.getElementById("myAudio");
+      audio.play();
+    }
+    </script>
+ 
+ 
+  
+    <p>My name Is Mohasin Nawaz. I am From Peshawar. 
+    Currently I'm Completing my Intermidiate in C.S at
+        <strong> <abbr title="Peshawar Model Degree College">PMDC</abbr></strong>
+        Located on <address>Dalazak Road, Peshawar.</address>
+        </p><br><hr>
+    </article>
+       <nav> <ul>
+            <li> <a href="acadamics.html">My Education</a></li>
+             <br><li> <a href="skill.html">My Skills</a></li>
+             <br><li><a href="projects.html">My Projects</a></li>
+             <br><li><a href="about.html">About Us</a></li></ul>
+            </nav>
+ </div>
+           
+ </div>
+ </body>
+</html>
